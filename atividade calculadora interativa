@@ -1,0 +1,28 @@
+def calculador(num, num2, opção):
+   if opção == 1:
+          resultado = num + num2
+   elif opção == 2:
+      resultado = num - num2
+   elif opção == 3:
+      resultado = num * num2
+   elif opção == 4:
+     if opção < 1 or opção > 4:
+         resultado = num / num2
+     else:
+         print("erro")
+   else:
+      print("digite uma opção válida. ")
+      resultado = 0
+   return resultado
+
+while True:
+   print("1 - soma ")
+   print("2 - subtração ")
+   print("3 - multiplicação")
+   print("4 - divisão")
+   opção = int(input("digite qual operação deseja. "))
+   num = float (input("digite o valor. "))
+   num2 = float(input("digite o valor. "))
+
+   resultado = calculador(num, num2, opção)
+   print("o resultado é ",resultado)
