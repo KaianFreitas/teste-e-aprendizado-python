@@ -1,0 +1,15 @@
+frutas = ["maçã", "mamão", "uva", "manga", "laranja"]
+def encontrarelemento (array):
+    achou = False
+    while (achou == False):
+        elemento = input("informe a fruta que deseja : ")
+        for i in range (len(array)):
+         if array[i] == elemento:
+            achou = True
+            break
+        if (achou == True):
+          print("achei ",i , elemento)
+        else:
+          print("nao achei ")    
+
+encontrarelemento(frutas)

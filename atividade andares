@@ -1,0 +1,22 @@
+#modelo 1
+
+for andares in range(19, -1, -1):
+    if andares  != 12:
+        print ("andar núrmero", andares + 1)
+
+#modelo 2
+
+andares = 19
+while andares > 20:
+    if andares != 13:
+        print ("andar número ", andares)
+
+#modelo 3
+
+andares = 19
+while andares > 20:
+    if andares != 13:
+        continue
+    if andares <= 20:
+        break
+    print("andar número ", andares)
