@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    background-color:darkseagreen ;
+}
+
+#menu-h ul li{
+    display: inline;
+}
+#menu-h ul li a{
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3a;
+}
+
+#menu-h ul li a:hover{
+    background-color: rgb(186, 241, 186);
+}
+#redes-s ul {
+    list-style: none;
+    padding: 0;
+    background-color:rgb(162, 158, 177) ;
+}
+
+#redes-s ul li{
+    display: inline;
+}
+#redes-s ul li a{
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3a;
+}
+
+#redes-s ul li a:hover{
+    background-color: rgb(190, 162, 209);
+}
+
+label {
+    width: 80;
+    display: inline-block;
+}
+
+h1 {
+    color: blueviolet(0, 0, 255);
+    background-color:cadetblue;
+    font-weight: 100;
+    font-size: 60px;
+}
+
+html {
+
+    background-color:rgb(230, 236, 234);
+    text-align: center;
+}
